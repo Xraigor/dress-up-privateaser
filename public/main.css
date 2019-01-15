@@ -2,6 +2,7 @@
 body {
   color: #000000;               /* Dark gray */
   background-color: #FF69B4;;    /* Light gray */;
+  background-size = cover;
 }
 
 p{
@@ -51,4 +52,8 @@ h1,h2,h3,h4{
   margin: 20px auto;
 
   text-align: left;
+}
+
+.images{
+background-size = cover;
 }
