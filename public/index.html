@@ -1,23 +1,35 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title>CSS/HTML Workshop with Privateaser</title>
+    <link rel='stylesheet' type='text/css' href='main.css'/>
   </head>
   <body>
     <div id="bar">
-      <input class="name" type="text" placeholder="Bar name"/>
-      <input class="price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="price-by-person" type="number" placeholder="Price by person"/>
+      <p>The Buying Information</p>
+      <h1> Name of the bar
+        <input class="name" type="text" placeholder="Bar name"/><br>
+          Price Per Hour
+        <input class="price-by-hour" type="number" placeholder="Price by hour"/><br>
+        Price Per Person
+        <input class="price-by-person" type="number" placeholder="Price by person"/></h1>
     </div>
     <div id="booker">
-      <input class="name" type="text" placeholder="Booker name"/>
-      <input class="time" type="number" placeholder="Time in h"/>
-      <input class="persons" type="number" placeholder="Persons"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+      <p>The Booker's Information</p>
+      <h2>
+        Name of the Booker
+        <input class="name" type="text" placeholder="Booker name"/><br>
+        Time in Hour
+        <input class="time" type="number" placeholder="Time in h"/><br>
+        Number of Persons
+        <input class="persons" type="number" placeholder="Persons"/></h2>
+      <h3>Deductible option
+        <input class="option" type="checkbox" placeholder="Deductible option"/></h3>
     </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="privateaser.js"></script>
-    <script src="index.js"></script>
+    <p class = 'button'><button id="compute">Compute</button></p>
+    <h4><div id="actors"></div>
+    <script src="privateaser.js" class='output'></script>
+      <script src="index.js"></script></h4>
   </body>
 </html>
